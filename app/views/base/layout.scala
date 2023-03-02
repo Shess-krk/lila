@@ -83,6 +83,7 @@ object layout:
 
   private val jsLicense = raw("""<link rel="jslicense" href="/source">""")
 
+  //Favicon
   private val favicons = raw {
     List(512, 256, 192, 128, 64)
       .map { px =>
@@ -375,7 +376,8 @@ object layout:
       """
 <input type="checkbox" id="tn-tg" class="topnav-toggle fullscreen-toggle" autocomplete="off" aria-label="Navigation">
 <label for="tn-tg" class="fullscreen-mask"></label>
-<label for="tn-tg" class="hbg"><span class="hbg__in"></span></label>"""
+<label for="tn-tg" class="hbg"><span class="hbg__in"></span></label>
+<a href="/" id="Shess_logo_link"><img id="Shess_logo" src="assets/_Z0Ejxc/logo/Logo1-01cropped.png" width=40px/></a>"""
     )
 
     private def reports(implicit ctx: Context) =

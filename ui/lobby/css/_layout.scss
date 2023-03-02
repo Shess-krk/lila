@@ -22,6 +22,7 @@ $mq-not-col3: $mq-not-small;
   display: grid;
   grid-template-areas: 'app' 'table' 'side' 'blog' 'tv' 'puzzle' 'leader' 'winner' 'tours' 'simuls' 'support' 'about' '.';
   grid-gap: $block-gap;
+  background-color: black;
 
   &__counters {
     margin-top: $block-gap;
@@ -60,6 +61,7 @@ $mq-not-col3: $mq-not-small;
 
     &__tournaments,
     &__simuls {
+      display: none;
       max-height: 20em;
     }
 

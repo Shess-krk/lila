@@ -12,11 +12,31 @@
   max-width: 1800px;
   margin: 0 auto;
   user-select: none;
+  background-color: rgb(8, 8, 8);
   --dropdown-top: 40px;
 
   @include breakpoint($mq-site-header-tall) {
     --dropdown-top: 60px;
   }
+}
+
+#Shess_logo_link {
+  margin-top: 5px;
+  margin-left: 10px;
+  padding-right: 5px;
+}
+
+#Shess_logo {
+  width: 30px;
+}
+
+.site-title {
+  padding-left: 0;
+  margin-left: 0;
+}
+
+#topnav {
+  display: none;
 }
 
 #topnav .community-patron {

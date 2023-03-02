@@ -38,10 +38,10 @@ object Environment
   given lila.common.config.NetDomain = env.net.domain
 
   lazy val siteName: String =
-    if (env.net.siteName == "localhost:9663") "lichess.dev"
+    if (env.net.siteName == "localhost:9663") "Shess.dev"
     else env.net.siteName
   lazy val siteNameFrag: Frag =
-    if (siteName == "lichess.org") frag("lichess", span(".org"))
+    if (siteName == "lichess.org") frag("Shess")
     else frag(siteName)
 
   def apiVersion = lila.api.Mobile.Api.currentVersion

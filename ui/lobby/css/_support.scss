@@ -1,6 +1,7 @@
 $c-support: $c-brag;
 
 .lobby__support {
+  display: none;
   a {
     @extend %flex-center-nowrap, %box-neat;
 

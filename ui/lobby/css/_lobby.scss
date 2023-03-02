@@ -11,10 +11,16 @@
 body {
   /* improves preload */
   overflow-y: scroll;
+  margin: 0;
+}
+
+html {
+  background-color: black;
 }
 
 #main-wrap {
   --main-max-width: 1400px;
+  background-color: black;
 }
 
 %lobby__side__more {
@@ -32,6 +38,7 @@ body {
 }
 
 .lobby__side {
+  display: none;
   @extend %flex-column;
 
   overflow: hidden;
